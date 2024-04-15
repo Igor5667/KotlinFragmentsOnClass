@@ -7,9 +7,21 @@
     >
 
     <TextView
+        android:id="@+id/textview_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="INVALIDER FRAGMENT"
-        android:textSize="30sp"
+        android:text="INVALIDER FRAGMENT(arrow)"
+        android:textSize="28sp"
         />
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:columnWidth="90dp"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        />
+
 </LinearLayout>
